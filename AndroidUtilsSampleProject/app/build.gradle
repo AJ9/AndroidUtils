@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "uk.co.aj9.androidutils"
+        applicationId "uk.co.aj9.androidutilssampleproject"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1

@@ -1,4 +1,4 @@
-package uk.co.aj9.androidutils;
+package uk.co.aj9.androidutilssampleproject;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;

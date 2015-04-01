@@ -1,4 +1,4 @@
-package uk.co.aj9.androidutils;
+package uk.co.aj9.androidutilssampleproject;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
