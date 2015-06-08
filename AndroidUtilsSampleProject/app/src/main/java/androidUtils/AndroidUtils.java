@@ -14,7 +14,11 @@ import java.io.File;
  */
 public class AndroidUtils {
 
-
+    /**
+     * Get the cache folder.
+     * @param context for the application.
+     * @return File location to the cache folder.
+     */
     public File getCacheFolder(Context context) {
         File cacheDir = null;
         if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
@@ -68,6 +72,20 @@ public class AndroidUtils {
             return false;
         }
 
+    }
+
+    /**
+     * Check if a string is empty.
+     * @param input to be checked.
+     * @return true if the string is empty.
+     */
+    public static boolean isEmptyString(String input){
+        if(input.isEmpty() || input.equals("")){
+         return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }
